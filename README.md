@@ -43,3 +43,13 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ### Profile page
 ![alt text](public/example/profile-page.png)
+
+## API endpoints
+
+* POST `/api/auth/login` -> Use for authenticate login
+* POST `/api/auth/register` -> Use for register an user
+* GET `/api/user/{userId}` -> Use for getting an user by id
+* PATCH `/api/user/{userId}` -> Use for edit user data
+* GET `/api/user/{userId}/favorites` -> Use for getting favorites of an user
+* POST `/api/user/{userId}/favorite` -> Use for add a favorite to an user
+* DELETE `/api/user/{userId}/favorite/{favoriteId}` -> Use for remove a favorite of an user
