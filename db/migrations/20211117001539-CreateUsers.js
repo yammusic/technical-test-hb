@@ -17,8 +17,7 @@ module.exports = {
         allowNull: false,
         type: Sequelize.STRING,
       },
-      token: {
-        allowNull: false,
+      authToken: {
         type: Sequelize.TEXT,
       },
       firstName: {
@@ -28,6 +27,13 @@ module.exports = {
       lastName: {
         allowNull: false,
         type: Sequelize.STRING,
+      },
+      githubUsername: {
+        type: Sequelize.STRING,
+      },
+      secretKey: {
+        allowNull: false,
+        type: Sequelize.TEXT,
       },
       createdAt: {
         allowNull: false,
