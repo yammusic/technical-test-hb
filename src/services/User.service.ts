@@ -1,7 +1,4 @@
 import APIService from './API.service'
-import { getApiBaseUrl } from '../utils/store'
-import User from '../models/User.model'
-import Favorite from '../models/Favorite.model'
 
 class UserService extends APIService {
   async getAll() {
