@@ -27,10 +27,12 @@ const Header = (props: Props) => {
   return (
     <AppBar
       enableColorOnDark
-      position="static"
+      position="fixed"
       color="primary"
       elevation={0}
-      sx={{ borderBottom: (theme) => `1px solid ${theme.palette.divider}` }}
+      sx={{
+        borderBottom: (theme) => `1px solid ${theme.palette.divider}`,
+      }}
     >
       <Toolbar sx={{ flexWrap: 'wrap' }}>
         <Typography variant="h6" color="inherit" noWrap sx={{ flexGrow: 1 }}>
